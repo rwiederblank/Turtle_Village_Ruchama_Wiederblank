@@ -1,0 +1,6 @@
+git lfs install
+git lfs track "*.jpg"   # or the right pattern
+git add .gitattributes
+git add path/to/largefile
+git commit -m "Track large files with LFS"
+git push
